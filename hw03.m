@@ -11,7 +11,7 @@ classdef hw03
             % :param: data: a matrix of size n x 2, where n is the number of data points
             %         data(:,1) is the x values
             %         data(:,2) is the y values
-            % :param: eval: a vector of x values to evaluate the interpolating polynomial
+            % :param: eval: a column vector of x values to evaluate the interpolating polynomial
             % :return: a vector, the evaluations of resulting interpolating polynomial at x values in eval
 
             n = length(eval);
